@@ -1,3 +1,1 @@
-entry: {
-  app: 'src/app.ts'
-}
+module.exports = require('./config/webpack.dev');
