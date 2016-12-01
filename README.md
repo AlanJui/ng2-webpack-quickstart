@@ -58,7 +58,8 @@
   ```
   $ npm run dist
   ```
-    使用瀏覽器，觀察「網址」：[http://localhost:8000](http://localhost:800)  的輸出結果。
+  
+   使用瀏覽器，觀察「網址」： [http://localhost:8000](http://localhost:8000) 的輸出結果。
 
 
 
