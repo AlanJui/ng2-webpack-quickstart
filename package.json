@@ -1,20 +1,17 @@
 {
-  "name": "ng2-webpack-quickstart",
+  "name": "angular2-webpack",
   "version": "1.0.0",
-  "description": "A webpack starter for Angular2",
-  "main": "index.js",
+  "description": "A webpack starter for Angular",
   "scripts": {
     "start": "webpack-dev-server --inline --progress --port 8080",
     "test": "karma start",
-    "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail"
+    "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
+    "dist": "lite-server --config bs-config.json"
   },
-  "keywords": [
-    "Angular2",
-    "Webpack"
-  ],
-  "author": "Alan Jui",
   "license": "MIT",
   "dependencies": {
+    "concurrently": "^3.1.0",
+    "lite-server": "^2.2.2",
     "@angular/common": "~2.2.0",
     "@angular/compiler": "~2.2.0",
     "@angular/core": "~2.2.0",
@@ -23,13 +20,16 @@
     "@angular/platform-browser": "~2.2.0",
     "@angular/platform-browser-dynamic": "~2.2.0",
     "@angular/router": "~3.2.0",
+    "angular-in-memory-web-api": "~0.1.15",
+    "systemjs": "0.19.40",
     "core-js": "^2.4.1",
-    "rxjs": "^5.0.0-beta.12",
-    "zone.js": "^0.6.25"
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "^0.6.26"
   },
   "devDependencies": {
-    "@types/node": "^6.0.45",
-    "@types/jasmine": "^2.5.35",
+    "@types/node": "^6.0.46",
+    "@types/jasmine": "^2.5.36",
     "angular2-template-loader": "^0.4.0",
     "awesome-typescript-loader": "^2.2.4",
     "css-loader": "^0.23.1",
@@ -52,6 +52,5 @@
     "webpack": "^1.13.0",
     "webpack-dev-server": "^1.14.1",
     "webpack-merge": "^0.14.0"
-  },
-  "repository": {}
+  }
 }
