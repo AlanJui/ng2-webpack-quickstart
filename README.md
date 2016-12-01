@@ -63,9 +63,9 @@
 
 
 
-###【附註】：
+##【附註】：
   
-1. 若欲更改開發階段 Web Server 使用的 Port 號，可藉由編輯 `package.json` 檔案，在 `scripts` 裡，變更 port 號。
+(1) 若欲更改開發階段 Web Server 使用的 Port 號，可藉由編輯 `package.json` 檔案，在 `scripts` 裡，變更 port 號。
   
 預設的內容：
   
@@ -76,7 +76,7 @@ scripts": {
 }    
 ```   
 
-2. 若欲更改產品階段 Web Server 使用的 Port 號，可藉由編輯 `bs-config.json` 檔案，變更 port 號。
+(2) 若欲更改產品階段 Web Server 使用的 Port 號，可藉由編輯 `bs-config.json` 檔案，變更 port 號。
   
 預設的內容：
   
