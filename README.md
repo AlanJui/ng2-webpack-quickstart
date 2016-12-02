@@ -1,5 +1,8 @@
 ## 專案摘要
-研習如何使用 Webpack 作為 Angular 2 之 Build 開發工具
+研習如何使用 Webpack 作為開發 Angular 2 App 之「Build管理工具」 
+。
+
+【參考文件】： Angular 2 官網 [《WEBPACK: AN INTRODUCTION》](https://angular.io/docs/ts/latest/guide/webpack.html)
 
 ## 基本需求
 
