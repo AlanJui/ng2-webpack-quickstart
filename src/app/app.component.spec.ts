@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By }           from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
+import {RouterTestingModule} from '@angular/router/testing';
 
 ////////  SPECS  /////////////
 describe('AppComponent', function () {
@@ -13,7 +14,8 @@ describe('AppComponent', function () {
 
   beforeEach(async(() => {
    TestBed.configureTestingModule({
-      declarations: [ AppComponent ]
+     declarations: [ AppComponent ],
+     imports: [ RouterTestingModule ]
     })
     .compileComponents();
   }));
@@ -29,7 +31,7 @@ describe('AppComponent', function () {
   it('should have expected <h1> text', () => {
     fixture.detectChanges();
     const h1 = de.nativeElement;
-    expect(h1.innerText).toMatch(/angular/i,
+    expect(h1.innerText).toMatch(/Heroes/i,
       '<h1> should say something about "Angular"');
   });
 });
