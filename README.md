@@ -27,10 +27,10 @@
   ```
   $ git clone https://github.com/AlanJui/ng2-webpack-quickstart <LocalRepoName>
   $ cd  <LocalRepoName>
-  $ rm .git
+  $ rm -rf .git
   ```
  
- (2) 安裝專案所需使用之 NodeJS Modules
+ (2) 安裝專案所需使用之「套件（NodeJS Modules）」
   
   ```
   $ npm install
@@ -41,7 +41,9 @@
   ```
   $ npm start
   ``` 
- 
+
+   使用瀏覽器，觀察「網址」： [http://localhost:8080](http://localhost:8080) 的輸出結果。
+
  (4) App 單元測試 (Karma)
   
   ```
@@ -50,7 +52,7 @@
 
  (5) App 產品階段-打包檔案
     
-    將檔案「打包」，並置入 `dist` 目錄之中
+ 將檔案「打包」，置入 `dist` 目錄之中。
   
   ```
   $ npm run build
