@@ -1,6 +1,6 @@
 {
   "name": "angular2-webpack",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A webpack starter for Angular",
   "scripts": {
     "serv": "webpack-dev-server --inline --progress --port 8080",
