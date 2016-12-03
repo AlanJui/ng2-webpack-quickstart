@@ -23,10 +23,6 @@
     "node": "6.6.0",
     "npm": "3.10.3"
   },
-  "bin": {
-    "webpack": "./node_modules/.bin/webpack",
-    "webpack-dev-server": "./node_modules/.bin/webpack-dev-server"
-  },
   "dependencies": {
     "concurrently": "^3.1.0",
     "lite-server": "^2.2.2",
