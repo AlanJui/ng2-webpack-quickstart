@@ -11,7 +11,8 @@
     "dist": "lite-server --config bs-config.json",
     "prod": "npm run build && npm run dist",
     "postinstall": "npm run build",
-    "heroku-prebuild": "npm install -g webpack"
+    "heroku-prebuild": "echo This runs before Heroku installs your dependencies.",
+    "heroku-postbuild": "echo This runs afterwards."
   },
   "author": "AlanJui <alanjui.1960@gmail.com>",
   "license": "ISC",
