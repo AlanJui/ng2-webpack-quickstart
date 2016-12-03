@@ -5,12 +5,13 @@
   "scripts": {
     "serv": "webpack-dev-server --inline --progress --port 8080",
     "test": "karma start",
-    "build": "node ./node_modules/.bin/webpack --config config/webpack.prod.js --progress --profile --bail",
+    "build": "webpack --config config/webpack.prod.js --progress --profile --bail",
     "server": "webpack-dev-server --inline --colors --progress --display-error-details --display-cached --port 3000 --content-base src",
     "start": "npm run server",
     "dist": "lite-server --config bs-config.json",
     "prod": "npm run build && npm run dist",
-    "postinstall": "npm run build"
+    "postinstall": "npm run build",
+    "heroku-prebuild": "npm install -g webpack"
   },
   "author": "AlanJui <alanjui.1960@gmail.com>",
   "license": "ISC",
