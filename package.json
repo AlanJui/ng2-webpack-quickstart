@@ -6,9 +6,23 @@
     "start": "webpack-dev-server --inline --progress --port 8080",
     "test": "karma start",
     "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
-    "dist": "lite-server --config bs-config.json"
+    "dist": "lite-server --config bs-config.json",
+    "prod": "npm run build && npm run dist"
   },
-  "license": "MIT",
+  "author": "AlanJui <alanjui.1960@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlanJui/ng2-webpack-quickstart/issues"
+  },
+  "homepage": "https://github.com/AlanJui/ng2-webpack-quickstart#readme",
+  "engines": {
+    "node": "6.6.0",
+    "npm": "3.10.3"
+  },
+  "bin": {
+    "webpack": "./node_modules/webpack/bin/webpack.js",
+    "webpack-dev-server": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+  },
   "dependencies": {
     "concurrently": "^3.1.0",
     "lite-server": "^2.2.2",
