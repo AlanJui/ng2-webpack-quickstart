@@ -20,7 +20,7 @@
 ```
   
 
-### 操作使用
+## 使用操作
 
  (1) 執行 git clone
  
@@ -36,7 +36,7 @@
   $ npm install
   ``` 
  
- (3) App 開發階段
+ (3) 開發階段 - 程式碼編撰作業
  
   ```
   $ npm run serve
@@ -44,13 +44,13 @@
 
    使用瀏覽器，觀察「網址」： [http://localhost:8080](http://localhost:8080) 的輸出結果。
 
- (4) App 單元測試 (Karma)
+ (4) 開發階段 - 單元測試作業 (Karma)
   
   ```
   $ npm test
   ```
 
- (5) App 產品階段-打包檔案
+ (5) 產品階段 - 檔案打包作業
     
  將檔案「打包」，置入 `dist` 目錄之中。
   
@@ -58,7 +58,7 @@
   $ npm run build
   ```
 
- (6) App 產品階段-瀏覽輸出
+ (6) 產品階段 - 操作驗證作業
  
   ```
   $ npm run dist
@@ -68,7 +68,7 @@
 
 
 
-##【附註】：
+## 變更預設
   
 (1) 若欲更改開發階段 Web Server 使用的 Port 號，可藉由編輯 `package.json` 檔案，在 `scripts` 裡，變更 port 號。
   
@@ -94,7 +94,9 @@ scripts": {
 
 ## 佈署到 Heroku 平台
 
-### 首次佈署的籌備作業
+### 籌備作業
+
+首次佈署 Angular 2 App 到 Heroku 平台前，需執行之一次性作業。
 
 (1) 登入 Heroku
 ```bash
@@ -166,7 +168,7 @@ scripts": {
 
 ### 佈署作業
 
-(1) 將待檔案到 Local Git Repo
+(1) 將檔案納管到 Local Git Repo
 
 ```bash
  $ git add .
