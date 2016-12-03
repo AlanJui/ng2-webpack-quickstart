@@ -124,11 +124,11 @@ scripts": {
 
 (4) 設定 Static Buildpack
 ```bash
- $ $ heroku buildpacks:add https://github.com/hone/heroku-buildpack-static
-   Buildpack added. Next release on ng2-webpack-quickstart will use:
-     1. heroku/nodejs
-     2. https://github.com/hone/heroku-buildpack-static
-   Run git push heroku master to create a new release using these buildpacks.
+ $ heroku buildpacks:add https://github.com/hone/heroku-buildpack-static
+ Buildpack added. Next release on ng2-webpack-quickstart will use:
+  1. heroku/nodejs
+  2. https://github.com/hone/heroku-buildpack-static
+ Run git push heroku master to create a new release using these buildpacks.
 ```
 
 (5) 設定 Config Variables

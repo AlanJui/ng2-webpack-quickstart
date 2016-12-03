@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "A webpack starter for Angular",
   "scripts": {
-    "serv": "webpack-dev-server --inline --progress --port 8080",
+    "serve": "webpack-dev-server --inline --progress --port 8080",
     "test": "karma start",
     "build": "webpack --config config/webpack.prod.js --progress --profile --bail",
     "server": "webpack-dev-server --inline --colors --progress --display-error-details --display-cached --port 3000 --content-base src",
