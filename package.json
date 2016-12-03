@@ -7,7 +7,7 @@
     "test": "karma start",
     "build": "node ./node_modules/.bin/webpack --config config/webpack.prod.js --progress --profile --bail",
     "server": "webpack-dev-server --inline --colors --progress --display-error-details --display-cached --port 3000 --content-base src",
-    "start": "npm run build && npm run server",
+    "start": "npm run server",
     "dist": "lite-server --config bs-config.json",
     "prod": "npm run build && npm run dist"
   },
